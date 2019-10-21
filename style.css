@@ -1,0 +1,48 @@
+<style>
+	
+	html,
+	body{
+		font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        min-width: 500px;
+      }
+	}
+
+	h1{
+		font-family: "Menlo", monospace;
+		text-align: center;
+		font-size: 20px;
+        font-weight: 800;
+        margin: 0;
+        color: yellow;
+	}
+
+	h2{
+		font-family: "Menlo", monospace;
+        font-size: 18px;
+        text-align: left;
+        font-weight: 300;
+        margin: 0;
+        color: orange;
+	}
+
+	span{
+		font-family: "Times New Roman", sans-serif;
+		font-size: 18px;
+		font-weight: 400;
+		color: darkblue;
+	}
+
+	h3{
+		font-family: "Comic Sans", monospace;
+        font-size: 16px;
+        text-align: left;
+        font-weight: 400;
+        margin: 0;
+        color: darkgreen;
+	}
+
+</style>
