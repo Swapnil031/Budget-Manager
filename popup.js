@@ -7,6 +7,7 @@ $(function(){
 
 	$('#spendAmount').click(function () {
 		chrome.storage.sync.get(['total','limit'], function(budget){
+			
 			var newTotal = 0;
 			if(budget.total){
 				newTotal += parseInt(budget.total);
@@ -22,11 +23,11 @@ $(function(){
 					var notifOptions = {
 						type: "basic",
 						iconUrl: "icon48.png",
-						title: "limt reached",
-						message: "you have reached your limit to spend"
+						title: "Limit Reached",
+						message: "You have reached your limit to spend."
 					};
 
-					chrome.notifications.create('limitNotify', notifOptions);
+					chrome.notifications.create('limitNotif', notifOptions);
 				}
 			});
 
